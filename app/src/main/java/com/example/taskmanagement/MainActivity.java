@@ -65,6 +65,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 startActivity(new Intent(getApplicationContext(), fetchdata.class));
+                //Intent intent=new Intent(getApplicationContext(), updatedata.class);
+               // intent.putExtra("uid",String.valueOf(users.get(position).getUid()));
+               // intent.
+               // startActivity(intent);
 
             }
         });
